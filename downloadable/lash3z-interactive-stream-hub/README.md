@@ -86,9 +86,3 @@ leaderboard updates inside OBS widgets and dashboards.
   handlers – swap in your own data stores as production requirements expand.
 - Run `npm run create-download` to build a `downloadable/lash3z-interactive-stream-hub`
   folder with a copy of the backend that can be zipped and shared.
-- A ready-to-use Visual Studio Code configuration is provided. Launch the
-  repository in VS Code, accept the recommended extensions, and press `F5` (or
-  select **Run → Start Debugging**) to boot the API via the `Launch API Server`
-  configuration. If you prefer a fully isolated workspace, open the folder in
-  a Dev Container (Remote Containers / Codespaces) and VS Code will provision a
-  Node.js 20 environment automatically using the `.devcontainer` settings.

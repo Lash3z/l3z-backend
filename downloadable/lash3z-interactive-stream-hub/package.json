@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "nodemon --watch server.js --watch src server.js",
+    "dev": "node server.js",
     "start": "node server.js",
     "create-download": "node scripts/create-download.js"
   },
@@ -14,15 +14,12 @@
     "cookie": "^0.6.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "dotenv": "^16.4.5",
     "helmet": "^7.1.0",
     "ioredis": "^5.4.1",
     "morgan": "^1.10.0",
     "nanoid": "^5.0.7",
     "ws": "^8.17.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
   }
 }

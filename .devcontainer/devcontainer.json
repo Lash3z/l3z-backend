@@ -1,0 +1,29 @@
+{
+  "name": "LASH3Z Interactive Stream Hub",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "forwardPorts": [4000],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node",
+  "updateRemoteUserUID": false,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mhutchie.git-graph"
+      ],
+      "settings": {
+        "files.eol": "\n",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "javascript.suggest.autoImports": true,
+        "debug.console.fontSize": 13
+      }
+    }
+  }
+}
